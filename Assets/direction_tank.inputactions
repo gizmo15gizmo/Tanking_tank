@@ -1,0 +1,98 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "tank",
+            "id": "e7c705a2-7a3e-45c2-b6da-6fab7abaaf97",
+            "actions": [
+                {
+                    "name": "devant_derriere",
+                    "type": "Button",
+                    "id": "6d50b104-0353-4c8d-95d5-89e45931af50",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "tourner",
+                    "type": "Button",
+                    "id": "4a803d31-bbdd-4d99-9733-463c9ab49349",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "rotateAxis",
+                    "id": "e9090416-5871-4080-b6d4-0e043f74b38f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tourner",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "915eca5e-6672-4022-9086-d0cada7ccce8",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tourner",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2f98c9e1-fba2-4887-b3ed-1a4295f4e1a4",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "tourner",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Axe devant_derrier",
+                    "id": "ef6ac9b1-fb5c-4c7e-86b0-3b74ea3b0e0d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "devant_derriere",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "dc870173-24bf-48c6-b084-ad3ed4cc7548",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "devant_derriere",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0bd963f7-b8e0-4dee-8899-84a43514427a",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "devant_derriere",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
